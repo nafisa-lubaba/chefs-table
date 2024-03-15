@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Grilled Salmon with Asparagus",
+      "short_description": "Delicious and healthy grilled salmon served with fresh asparagus.",
+      "ingredients": ["4 salmon fillets", "1 bunch of asparagus", "2 tablespoons olive oil", "Salt and pepper to taste"],
+      "preparing_time": "20 min",
+      "calories": "300 calories",
+      "recipe_image": "https://i.ibb.co/8s4bcQJ/img-1.png"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "Colorful and flavorful stir-fried vegetables with tofu.",
+      "ingredients": ["200g tofu", "1 red bell pepper", "1 yellow bell pepper", "1 broccoli head", "2 carrots", "3 tablespoons soy sauce"],
+      "preparing_time": "25 min",
+      "calories": "250 calories",
+      "recipe_image": "https://i.ibb.co/5LqFxJj/img-2.png"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Classic Spaghetti Carbonara",
+      "short_description": "Creamy and indulgent pasta dish with crispy bacon and parmesan cheese.",
+      "ingredients": ["300g spaghetti", "200g bacon", "3 eggs", "100g grated parmesan cheese", "Salt and pepper to taste"],
+      "preparing_time": "30 min",
+      "calories": "400 calories",
+      "recipe_image": "https://i.ibb.co/GvStPvj/img-3.png"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Rich and creamy risotto with mushrooms and parmesan cheese.",
+      "ingredients": ["1 cup Arborio rice", "200g mushrooms", "1 onion", "2 cloves garlic", "4 cups vegetable broth", "1/2 cup grated parmesan cheese"],
+      "preparing_time": "35 min",
+      "calories": "350 calories",
+      "recipe_image": "https://i.ibb.co/55wb27y/img-4.png"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Chicken Caesar Salad",
+      "short_description": "Classic salad with grilled chicken, crisp romaine lettuce, and creamy Caesar dressing.",
+      "ingredients": ["2 chicken breasts", "1 head romaine lettuce", "1/2 cup croutons", "1/4 cup grated parmesan cheese", "Caesar dressing"],
+      "preparing_time": "20 min",
+      "calories": "320 calories",
+      "recipe_image": "https://i.ibb.co/wJKhv8g/img-5.png"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Vegetarian Chili",
+      "short_description": "Hearty and flavorful chili loaded with beans, vegetables, and spices.",
+      "ingredients": ["1 can black beans", "1 can kidney beans", "1 can diced tomatoes", "1 onion", "1 bell pepper", "2 cloves garlic", "2 tablespoons chili powder"],
+      "preparing_time": "40 min",
+      "calories": "280 calories",
+      "recipe_image": "https://i.ibb.co/yqpZK6f/img-6.png"
+    }
+  ]
+  

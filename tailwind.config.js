@@ -6,7 +6,11 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'header':"url('./src/assets/images/rectangle-1.png')"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
