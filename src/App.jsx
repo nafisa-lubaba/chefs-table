@@ -11,9 +11,12 @@ import Want from './components/Want/Want'
 function App() {
   const [want, setWant] = useState([]);
 
-  const handleWantToCook = recipe =>{
-    console.log('want to cook')
+  const handleWantToCook = (recipe) =>{
+    const newWantCook = [...want, recipe];
+    setWant(newWantCook);
+  
   }
+
   
   return (
     <>
@@ -21,7 +24,7 @@ function App() {
     <Main></Main>
    <div className='md:flex'>
         <Recipes handleWantToCook={handleWantToCook}></Recipes>
-        <Want></Want>
+        <Want want={want}></Want>
    
    
    </div>

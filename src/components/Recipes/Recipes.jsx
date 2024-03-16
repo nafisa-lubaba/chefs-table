@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
+import PropTypes from 'prop-types'
 
 
 const Recipes = ({handleWantToCook}) => {
@@ -17,8 +18,10 @@ const Recipes = ({handleWantToCook}) => {
             <div className="md:w-2/3">
                     
                     {
-                    recipes.map(recipe => <Recipe key={recipe.recipe_id} recipe={recipe}
-                        handleWantToCook={handleWantToCook}
+                    recipes.map(recipe => <Recipe
+                         key={recipe.recipe_id}
+                          recipe={recipe}
+                          handleWantToCook={handleWantToCook}
                     ></Recipe>)
                 }
 
@@ -28,5 +31,8 @@ const Recipes = ({handleWantToCook}) => {
         </div>
     );
 };
+Recipes.propTypes = {
+    handleWantToCook: PropTypes.func
+}
 
 export default Recipes;

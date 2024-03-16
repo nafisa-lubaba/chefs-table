@@ -2,24 +2,25 @@ import PropTypes from 'prop-types';
 import { IoIosTimer } from "react-icons/io";
 import { AiOutlineFire } from "react-icons/ai";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe, handleWantToCook}) => {
     
     const {recipe_name,recipe_image,short_description,ingredients,preparing_time,calories} = recipe;
     return (
         <div className='mx-10'>
+            
             <img src={recipe_image} alt={`recipe_image for the recipe_name
                 ${recipe_name}`} />
             <div>
                     <h1>{recipe_name}</h1>
                     <p>{short_description}  </p>
                     <h1 className='font-bold'>Ingredients:{ingredients.length}</h1>
-                    <ul className='ml-5'>
+                    {/* <ul className='ml-5'> */}
                     { 
                     
                     ingredients.map((ingredient, idx) => (
-                        <li key={idx}>{ingredient}</li>
+                        <li className='ml-5' key={idx}>{ingredient}</li>
                     ))}
-                    </ul>
+                    {/* </ul> */}
                     <hr className='border-dotted my-2' />
                     <div className='flex mb-3'>
                       <button className='text-2xl'><IoIosTimer /></button>
@@ -33,7 +34,7 @@ const Recipe = ({recipe}) => {
 
                     </div>
                     <div>
-                    <button 
+                    <button onClick={() =>{handleWantToCook(recipe)} }
                   className='btn bg-green-400 rounded-xl mb-4'>want to cook</button>
                     </div>
 
@@ -46,8 +47,10 @@ const Recipe = ({recipe}) => {
         </div>
     );
 };
-Recipe.propTypes ={
-    recipe: PropTypes.object.isRequired
-}
+Recipe.propTypes = {
+    recipe: PropTypes.object.isRequired,
+    handleWantToCook: PropTypes.func
+};
+
 
 export default Recipe;
