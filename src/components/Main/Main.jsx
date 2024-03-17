@@ -22,7 +22,7 @@ const Main = () => {
                 </div>
             </div>
             <div className="text-center pt-8">
-                    <h2 className="text-2xl lg:text-4xl font-extrabold">Our Recipes:</h2>
+                    <h2 className="text-2xl lg:text-4xl font-extrabold mb-3">Our yum-yum Recipes</h2>
                     <p className="lg:max-w-3xl mx-auto mt-5 mb-8">
                     Savor the essence with curated recipes, crafted with dedication to quality and flavor. From aromatic coffees to delectable pastries, each is made with love and expertise, leaving you craving more.</p>
                    
