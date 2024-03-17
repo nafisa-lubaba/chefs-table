@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'header':"url('./src/assets/images/rectangle-1.png')"
+        'header':"url('https://i.ibb.co/Fxdgkcv/rectangle-1.png')"
       }
     },
   },
